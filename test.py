@@ -12,3 +12,4 @@ for d in data:
     res = res*a + d
     a *= b
 print res
+
