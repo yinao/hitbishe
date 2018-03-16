@@ -1,0 +1,1390 @@
+one random hyperplanetime: 2017-11-22 21:27:35
+data set: ../dataSets/Satellite 
+train height limit: 10
+train tree num: 10
+test height limit: 10
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.783179703281
+=======
+
+one random hyperplanetime: 2017-11-22 21:27:51
+data set: ../dataSets/Satellite 
+train height limit: 10
+train tree num: 10
+test height limit: 10
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.753184327926
+=======
+
+one random hyperplanetime: 2017-11-22 21:28:09
+data set: ../dataSets/Satellite 
+train height limit: 10
+train tree num: 10
+test height limit: 10
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 3
+AUC score: 0.746829293673
+=======
+
+one random hyperplanetime: 2017-11-22 21:28:24
+data set: ../dataSets/Satellite 
+train height limit: 10
+train tree num: 15
+test height limit: 10
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.72401953516
+=======
+
+one random hyperplanetime: 2017-11-22 21:28:39
+data set: ../dataSets/Satellite 
+train height limit: 10
+train tree num: 20
+test height limit: 10
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.722000970483
+=======
+
+one random hyperplanetime: 2017-11-22 21:28:56
+data set: ../dataSets/Satellite 
+train height limit: 8
+train tree num: 20
+test height limit: 8
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.647177693984
+=======
+
+one random hyperplanetime: 2017-11-22 21:29:10
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 20
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.772630053892
+=======
+
+one random hyperplanetime: 2017-11-22 21:29:17
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 20
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.769079896708
+=======
+
+one random hyperplanetime: 2017-11-22 21:29:24
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 20
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.662297166573
+=======
+
+one random hyperplanetime: 2017-11-22 21:29:30
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 20
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.762078618064
+=======
+
+one random hyperplanetime: 2017-11-22 21:29:44
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 20
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.746362028162
+=======
+
+one random hyperplanetime: 2017-11-22 21:39:13
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 20
+test height limit: 4
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.658160722365
+=======
+
+one random hyperplanetime: 2017-11-22 21:39:28
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 20
+test height limit: 5
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.653267330359
+=======
+
+one random hyperplanetime: 2017-11-22 21:39:44
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 30
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.656585920358
+=======
+
+one random hyperplanetime: 2017-11-22 21:39:57
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 50
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.721574458117
+=======
+
+one random hyperplanetime: 2017-11-22 21:58:36
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.734969737719
+=======
+
+one random hyperplanetime: 2017-11-22 21:58:41
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.745128659353
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:05
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.598615185805
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:10
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.611438190766
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:15
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.637852760339
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:21
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.659227114932
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:37
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.642573426002
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:42
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.642662413006
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:46
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.702679290391
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:52
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.701585989582
+=======
+
+one random hyperplanetime: 2017-11-22 21:59:56
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 10
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.708594972245
+=======
+
+one random hyperplanetime: 2017-11-22 22:00:08
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.673997003695
+=======
+
+one random hyperplanetime: 2017-11-22 22:00:15
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.665204317288
+=======
+
+one random hyperplanetime: 2017-11-22 22:00:30
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.696857731553
+=======
+
+one random hyperplanetime: 2017-11-22 22:00:36
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.744392869696
+=======
+
+one random hyperplanetime: 2017-11-22 22:00:47
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.607302918908
+=======
+
+one random hyperplanetime: 2017-11-22 22:01:27
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.71473356822
+=======
+
+one random hyperplanetime: 2017-11-22 22:01:32
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.620290946192
+=======
+
+one random hyperplanetime: 2017-11-22 22:01:36
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.7044488701
+=======
+
+one random hyperplanetime: 2017-11-22 22:02:07
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.750348467302
+=======
+
+one random hyperplanetime: 2017-11-22 22:02:13
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.712918713442
+=======
+
+one random hyperplanetime: 2017-11-22 22:02:18
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.746795742111
+=======
+
+one random hyperplanetime: 2017-11-22 22:02:24
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.699710172566
+=======
+
+one random hyperplanetime: 2017-11-22 22:02:30
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.665478870667
+=======
+
+one random hyperplanetime: 2017-11-22 22:02:36
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.676510412038
+=======
+
+one random hyperplanetime: 2017-11-22 22:02:44
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.674824571668
+=======
+
+one random hyperplanetime: 2017-11-22 22:02:57
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.747499654994
+=======
+
+one random hyperplanetime: 2017-11-22 22:03:12
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.636687667004
+=======
+
+one random hyperplanetime: 2017-11-22 22:03:17
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.667259503968
+=======
+
+one random hyperplanetime: 2017-11-22 22:03:23
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.745127319524
+=======
+
+one random hyperplanetime: 2017-11-22 22:03:40
+data set: ../dataSets/Satellite 
+train height limit: 8
+train tree num: 15
+test height limit: 8
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.739149893863
+=======
+
+one random hyperplanetime: 2017-11-22 22:04:53
+data set: ../dataSets/shuttle 
+train height limit: 8
+train tree num: 15
+test height limit: 8
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.65005626167
+=======
+
+one random hyperplanetime: 2017-11-22 22:04:59
+data set: ../dataSets/shuttle 
+train height limit: 8
+train tree num: 15
+test height limit: 8
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.685772485352
+=======
+
+one random hyperplanetime: 2017-11-22 22:05:09
+data set: ../dataSets/shuttle 
+train height limit: 8
+train tree num: 15
+test height limit: 8
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.65830737786
+=======
+
+one random hyperplanetime: 2017-11-22 22:06:36
+data set: ../dataSets/Satellite 
+train height limit: 8
+train tree num: 15
+test height limit: 8
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.6945169379
+=======
+
+one random hyperplanetime: 2017-11-22 22:06:43
+data set: ../dataSets/Satellite 
+train height limit: 8
+train tree num: 15
+test height limit: 8
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.639404841072
+=======
+
+one random hyperplanetime: 2017-11-22 22:08:45
+data set: ../dataSets/Satellite 
+train height limit: 8
+train tree num: 15
+test height limit: 8
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.698453942043
+====================================
+
+one random hyperplanetime: 2017-11-22 22:08:49
+data set: ../dataSets/Satellite 
+train height limit: 8
+train tree num: 15
+test height limit: 8
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.64672260749
+====================================
+
+one random hyperplanetime: 2017-11-22 22:08:58
+data set: ../dataSets/Satellite 
+train height limit: 8
+train tree num: 25
+test height limit: 8
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.702015475878
+====================================
+
+one random hyperplanetime: 2017-11-22 22:09:08
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.682668187001
+====================================
+
+one random hyperplanetime: 2017-11-22 22:09:17
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.696346686823
+====================================
+
+one random hyperplanetime: 2017-11-22 22:09:24
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.655107434574
+====================================
+
+one random hyperplanetime: 2017-11-22 22:09:29
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.709167529002
+====================================
+
+one random hyperplanetime: 2017-11-22 22:09:33
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 256
+train tree with sample attributes randomly: 2
+AUC score: 0.715295922491
+====================================
+
+one random hyperplanetime: 2017-11-22 22:41:07
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.577247065024
+====================================
+
+one random hyperplanetime: 2017-11-22 22:41:17
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.731482656981
+====================================
+
+one random hyperplanetime: 2017-11-22 22:41:22
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 15
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.681957656147
+====================================
+
+one random hyperplanetime: 2017-11-22 22:41:32
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.717937850805
+====================================
+
+one random hyperplanetime: 2017-11-22 22:41:38
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.6941446749
+====================================
+
+one random hyperplanetime: 2017-11-22 22:42:05
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.741786467424
+====================================
+
+one random hyperplanetime: 2017-11-22 22:42:10
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.716334767199
+====================================
+
+one random hyperplanetime: 2017-11-23 08:44:28
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.764221186195
+====================================
+
+one random hyperplanetime: 2017-11-23 08:44:34
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.782214574318
+====================================
+
+one random hyperplanetime: 2017-11-23 08:44:41
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.679770650122
+====================================
+
+one random hyperplanetime: 2017-11-23 08:44:44
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.669440000444
+====================================
+
+one random hyperplanetime: 2017-11-23 08:44:47
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.690840685727
+====================================
+
+one random hyperplanetime: 2017-11-23 08:44:55
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 512
+train tree with sample attributes randomly: 2
+AUC score: 0.68106518724
+====================================
+
+one random hyperplanetime: 2017-11-23 08:45:06
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.725491840087
+====================================
+
+one random hyperplanetime: 2017-11-23 08:45:10
+data set: ../dataSets/Satellite 
+train height limit: 6
+train tree num: 25
+test height limit: 6
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.683158366227
+====================================
+
+one random hyperplanetime: 2017-11-23 08:45:24
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.717416205986
+====================================
+
+one random hyperplanetime: 2017-11-23 08:46:01
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.636186068792
+====================================
+
+one random hyperplanetime: 2017-11-23 08:46:04
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.678952634137
+====================================
+
+one random hyperplanetime: 2017-11-23 08:46:07
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.630095669828
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:07
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.688957593801
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:10
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.728133109664
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:15
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.738840191657
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:18
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.704078700122
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:24
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.657890141474
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:27
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.678428291849
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:32
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.745431882311
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:37
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.676651277915
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:40
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.697728012755
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:42
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.730244321435
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:47
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.665277433226
+====================================
+
+one random hyperplanetime: 2017-11-23 08:49:59
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.719314351328
+====================================
+
+one random hyperplanetime: 2017-11-23 08:50:02
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.75958160765
+====================================
+
+one random hyperplanetime: 2017-11-23 08:50:05
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.598657109903
+====================================
+
+one random hyperplanetime: 2017-11-23 08:50:08
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.786919612393
+====================================
+
+one random hyperplanetime: 2017-11-23 08:50:11
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.715227534643
+====================================
+
+one random hyperplanetime: 2017-11-23 08:50:13
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 2
+AUC score: 0.714376081843
+====================================
+
+one random hyperplanetime: 2017-11-23 08:51:17
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.751726014352
+====================================
+
+one random hyperplanetime: 2017-11-23 08:51:26
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.76287383886
+====================================
+
+one random hyperplanetime: 2017-11-23 08:51:30
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.721984500681
+====================================
+
+one random hyperplanetime: 2017-11-23 08:51:42
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.752994845503
+====================================
+
+one random hyperplanetime: 2017-11-23 08:51:46
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.752063362717
+====================================
+
+one random hyperplanetime: 2017-11-23 08:51:50
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.654057074898
+====================================
+
+one random hyperplanetime: 2017-11-23 08:51:54
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.713287101248
+====================================
+
+one random hyperplanetime: 2017-11-23 08:51:58
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.698338933294
+====================================
+
+one random hyperplanetime: 2017-11-23 08:52:02
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.70600453692
+====================================
+
+one random hyperplanetime: 2017-11-23 08:52:06
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.702424625764
+====================================
+
+one random hyperplanetime: 2017-11-23 08:52:56
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.800487076349
+====================================
+
+one random hyperplanetime: 2017-11-23 08:53:01
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.674669919237
+====================================
+
+one random hyperplanetime: 2017-11-23 08:53:05
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.747258456004
+====================================
+
+one random hyperplanetime: 2017-11-23 08:53:08
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.745838582347
+====================================
+
+one random hyperplanetime: 2017-11-23 08:53:10
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.768678795372
+====================================
+
+one random hyperplanetime: 2017-11-23 08:56:19
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.652711367725
+====================================
+
+one random hyperplanetime: 2017-11-23 08:56:24
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.744957583468
+====================================
+
+one random hyperplanetime: 2017-11-23 08:56:33
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.769283930295
+====================================
+
+one random hyperplanetime: 2017-11-23 08:56:39
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.757453322626
+====================================
+
+one random hyperplanetime: 2017-11-23 08:56:43
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.741287339972
+====================================
+
+one random hyperplanetime: 2017-11-23 08:56:52
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.752635091915
+====================================
+
+one random hyperplanetime: 2017-11-23 08:58:28
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.680653397551
+====================================
+
+one random hyperplanetime: 2017-11-23 08:58:33
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.753636687396
+====================================
+
+one random hyperplanetime: 2017-11-23 08:59:15
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.758975388208
+====================================
+
+one random hyperplanetime: 2017-11-23 08:59:24
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.768218746546
+====================================
+
+one random hyperplanetime: 2017-11-23 08:59:27
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.723650647201
+====================================
+
+one random hyperplanetime: 2017-11-23 08:59:30
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.739539934895
+====================================
+
+one random hyperplanetime: 2017-11-23 08:59:33
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.735914143867
+====================================
+
+one random hyperplanetime: 2017-11-23 08:59:36
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.769371933323
+====================================
+
+one random hyperplanetime: 2017-11-23 09:00:28
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.672516436231
+====================================
+
+one random hyperplanetime: 2017-11-23 09:00:31
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.763206155448
+====================================
+
+one random hyperplanetime: 2017-11-23 09:00:45
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.748904006047
+====================================
+
+one random hyperplanetime: 2017-11-23 09:00:47
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.658454322091
+====================================
+
+one random hyperplanetime: 2017-11-23 09:00:51
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.74909093376
+====================================
+
+one random hyperplanetime: 2017-11-23 09:01:07
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.761352670716
+====================================
+
+one random hyperplanetime: 2017-11-23 09:01:10
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.75703818507
+====================================
+
+one random hyperplanetime: 2017-11-23 09:01:33
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.65446989387
+====================================
+
+one random hyperplanetime: 2017-11-23 09:01:37
+data set: ../dataSets/Satellite 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.753034330961
+====================================
+
+one random hyperplanetime: 2017-11-23 09:01:49
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.710411812961
+====================================
+
+one random hyperplanetime: 2017-11-23 09:01:54
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.691360218729
+====================================
+
+one random hyperplanetime: 2017-11-23 09:01:58
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 128
+train tree with sample attributes randomly: 3
+AUC score: 0.650114968804
+====================================
+
+one random hyperplanetime: 2017-11-23 09:02:06
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 250
+train tree with sample attributes randomly: 3
+AUC score: 0.707697799203
+====================================
+
+one random hyperplanetime: 2017-11-23 09:02:11
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 25
+test height limit: 4
+update tree profile with sample size: 250
+train tree with sample attributes randomly: 3
+AUC score: 0.70102325153
+====================================
+
+one random hyperplanetime: 2017-11-23 09:02:22
+data set: ../dataSets/ann_thyroid 
+train height limit: 4
+train tree num: 15
+test height limit: 4
+update tree profile with sample size: 250
+train tree with sample attributes randomly: 3
+AUC score: 0.697972390294
+====================================
+
