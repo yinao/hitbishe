@@ -1,0 +1,27 @@
+
+gun_1
+    words=4, win_size=8, sub_len = 6, auc=0.947917
+
+ecg200
+    words=6, win_size=8, sub_len = 3, auc=0.818707
+
+lighting2
+    words = 3, win_size = 4, sub_len = 1, auc = 0.8075
+
+yoga( no use )
+    words = 3,win_size=5,sub_len=7,auc=0.589
+
+earthquakes
+    words = 5,win_size = 6,sub_len=7,suc=0.715
+    words=7, win_size=5, sub_len = 5, auc=0.714973
+
+strawberry
+    words=4, win_size=7, sub_len = 10, auc=0.722106
+
+ToeSegmentation2
+    words=7, win_size=5, sub_len = 1, auc=0.875197
+    words=8, win_size=2, sub_len = 2, auc=0.819772
+    words=7, win_size=2, sub_len = 1, auc=0.864780
+
+handoutlines
+    words=4, win_size=7, sub_len = 10, auc=0.722106
