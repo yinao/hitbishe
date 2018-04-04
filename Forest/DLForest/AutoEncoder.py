@@ -44,7 +44,7 @@ class AutoEncoder:
         self.sess.run(init)
         for e in range(self.epochs):
             _, c = self.sess.run([optimizer, cost], feed_dict={X: x_data})
-            # print(c)
+            print(c)
 
         results = self.sess.run([self.weights, self.biases, encoder_op], feed_dict={X:x_data})
         return {'weights': results[0]['encoder_h1'].reshape(1, cols)[0],

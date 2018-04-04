@@ -8,7 +8,7 @@ from sklearn.preprocessing import scale
 from sklearn.metrics import roc_auc_score
 from HashForest import HashForest
 
-data = numpy.loadtxt('../data_series/strawberry', delimiter=',')
+data = numpy.loadtxt('../../data_series/forest/stawberry', delimiter=',')
 labels = data[:, 0]
 data = data[:, 1:]
 # print data.shape
@@ -16,7 +16,7 @@ for i in range(len(data)):
     data[i] = scale(data[i])
 
 forest = HashForest()
-forest.setup(sample_size=100, tree_size=40, node_size=15, k=17)
+forest.setup(sample_size=256, tree_size=20, node_size=15, k=7)
 
 trainBeginTime = time.clock()
 
@@ -25,7 +25,7 @@ forest.build(data)
 print "training cost %s s" %(time.clock() - trainBeginTime)
 
 testBeginTime = time.clock()
-scores = forest.evaluation(data, 4)
+scores = forest.evaluation(data, 8)
 print "test time %s s" %(time.clock() - testBeginTime)
 
 # print scores

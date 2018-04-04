@@ -92,8 +92,8 @@ class MBForest:
 
     def __score(self, instance, tree, curh, hlimit):
         if tree.external is True or curh >= hlimit:
-            # return tree.size * (2**curh)
-            return curh + self.__cost(tree.size-1)
+            return tree.size * (2**curh)
+            # return curh + self.__cost(tree.size-1)
         if instance[tree.index] < tree.lsplit:
             return self.__score(instance, tree.left, curh+self.__less_height, hlimit)
         elif instance[tree.index] > tree.rsplit:

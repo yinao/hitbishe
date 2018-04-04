@@ -9,7 +9,7 @@ from sklearn.preprocessing import scale
 from sklearn.metrics import roc_auc_score
 from HashForest_Net import HashForest
 
-data = numpy.loadtxt('../data_series/Lighting2', delimiter=',')
+data = numpy.loadtxt('../data_series/lighting2', delimiter=',')
 labels = data[:, 0]
 data = data[:, 1:]
 # print data.shape

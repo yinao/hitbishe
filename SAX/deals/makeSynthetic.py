@@ -52,13 +52,13 @@ plt.annotate('data from B', xytext=(52*cols-500, -1.5),
              xy=(52*cols-150, -0),
              arrowprops=dict(arrowstyle='->'),
              rotation='10',
-             fontsize=15)
+             fontsize=10)
 
 plt.annotate('data from A', xytext=(0, -1.5),
-             xy=(1000, -0.8),
+             xy=(990, -0.8),
              arrowprops=dict(arrowstyle='->'),
              rotation='-10',
-             fontsize=15)
+             fontsize=10)
 
 # table_vals = [['22233311', 1],
 #               ['23111111', 1],
@@ -71,8 +71,8 @@ plt.annotate('data from A', xytext=(0, -1.5),
 plt.tight_layout()
 fig = plt.gcf()
 
-fig.set_size_inches(14.5, 5)
+fig.set_size_inches(8.5, 4)
 
-plt.show()
+# plt.show()
 
-# plt.savefig('../results/ecg_dis2.png', dpi=500)
+plt.savefig('../results/ecg_dis3.png', dpi=500)

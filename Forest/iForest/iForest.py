@@ -23,7 +23,7 @@ class TreeNode:
 def IsolationForest(dataSets, treeNum, size):
     global sampleSize, heightLimit, sizeLimit
     sampleSize = size
-    heightLimit = 6
+    heightLimit = 15
     Forest = []
     i = 0
     while i < treeNum:

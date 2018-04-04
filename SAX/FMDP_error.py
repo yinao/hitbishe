@@ -20,7 +20,7 @@ cutlines[9] = [-1.22, -0.76, -0.43, -0.14, 0.14, 0.43, 0.76, 1.22, float('inf')]
 cutlines[10] = [-1.28, -0.84, -0.52, -0.25, 0, 0.25, 0.52, 0.84, 1.28, float('inf')]
 
 
-data = numpy.loadtxt('dataSets/Lighting2', delimiter=',')
+data = numpy.loadtxt('dataSets/lighting2', delimiter=',')
 labels = data[:, 0]
 data = data[:, 1:]
 data_bak = data.copy()

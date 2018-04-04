@@ -10,7 +10,7 @@ import time
 import Queue
 
 
-fileObj = open("../dataSets/hapt57", "r")
+fileObj = open("../dataSets/breast", "r")
 dataLines = fileObj.readlines()
 dataSets = []
 labels = []
@@ -24,7 +24,7 @@ fileObj.close()
 
 trainBeginTime = time.clock()
 
-Forest = IsolationForest(dataSets, 5, 256)
+Forest = IsolationForest(dataSets, 25, 256)
 
 print "training cost %s s" %(time.clock() - trainBeginTime)
 

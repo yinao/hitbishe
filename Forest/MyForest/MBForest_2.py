@@ -116,21 +116,22 @@ class MBForest:
         for item in data:
             tmp = 0
             for tree in self.__trees:
-                tmp += self.__score(item, tree, 0, hlimit)
+                tmp += self.__score2(item, tree, 0, hlimit, w=1)
             # scores.append(tmp/self.__tree_num)
             # scores.append( 1-2 ** (-1.0*tmp/self.__tree_num/self.__sample_size))
-            scores.append(tmp)
+            scores.append(tmp/self.__tree_num/self.__sample_size)
         return scores
 
-    def __score(self, instance, tree, curh, hlimit):
+    def __score2(self, instance, tree, curh, hlimit,w):
         if tree.external is True or curh >= hlimit:
-            return tree.size * (2**curh)
+            # print curh, tree.size, w
+            return tree.size*1.0
         if instance[tree.index] < tree.lsplit:
-            return self.__score(instance, tree.left, curh+self.__less_height, hlimit)
+            return self.__score2(instance, tree.left, curh+1, hlimit, w*self.__less_height)
         elif instance[tree.index] > tree.rsplit:
-            return self.__score(instance, tree.right, curh+self.__much_height, hlimit)
+            return self.__score2(instance, tree.right, curh+1, hlimit, w*self.__less_height)
         else:
-            return self.__score(instance, tree.middle, curh+self.__less_height, hlimit)
+            return self.__score2(instance, tree.middle, curh+1, hlimit, w*self.__less_height)
 
     def showTreeStructure(self):
         self.__show(self.__trees[0])

@@ -72,11 +72,10 @@ from sklearn.model_selection import train_test_split
 # obj.close()
 
 # computae the anomaly rate
-obj = open('dataSets/shuttle', 'r')
+obj = open('dataSets/breast', 'r')
 wordscount = dict()
 for line in obj.readlines():
     tmp = line[:-1].split(',')
-    print len(tmp)
     wordscount[tmp[-1]] = wordscount.get(tmp[-1], 0) + 1
 obj.close()
 print wordscount

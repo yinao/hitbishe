@@ -49,13 +49,13 @@ class HashForest:
             sample_attr_len = random.randint(10, cols/3)
             weight = list()
             for i in range(self.k):
-                weight.append(numpy.random.normal(0, 1, sample_attr_len))
+                weight.append(numpy.random.normal(0, 1, sample_attr_len)/(sample_attr_len**0.5))
             tree = self.build_tree(data[sample_index, :],
                                    self.k,
                                    sample_attr_len,
                                    numpy.array(weight),
                                    0,
-                                   8)
+                                   15)
             self.forest.append(tree)
 
     def build_tree(self, data, k, s_a_l, factor, cur, hlimit):

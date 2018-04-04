@@ -21,7 +21,7 @@ def sdar_dist(vec1, vec2, bit1, bit2, w):
     #     dist += (b ^ bit2[k]).count()*1.0 / w
     return dist
 
-data = numpy.loadtxt('../dataSets/Lighting2', delimiter=',')
+data = numpy.loadtxt('../dataSets/lighting2', delimiter=',')
 labels = data[:, 0].astype('int')
 data = data[:, 1:]
 

@@ -9,13 +9,13 @@ from sklearn.metrics import roc_auc_score
 import time
 
 
-fileObj = open("../data_series/ToeSegmentation2", "r")
+fileObj = open("../../data_series/forest/stawberry", "r")
 dataLines = fileObj.readlines()
 dataSets = []
 labels = []
 for line in dataLines:
     tmp = line.split(',')
-    labels.append(int(tmp[0]))
+    labels.append(float(tmp[0]))
     tmp = tmp[1:]
     dataSets.append([float(x) for x in tmp])
 
@@ -23,13 +23,13 @@ fileObj.close()
 
 trainBeginTime = time.clock()
 
-Forest = IsolationForest(dataSets, 25, 150)
+Forest = IsolationForest(dataSets, 25, 256)
 
 print "training cost %s s" %(time.clock() - trainBeginTime)
 
 
 testBeginTime = time.clock()
-scores = Evaluation(dataSets, Forest, hlimit=6)
+scores = Evaluation(dataSets, Forest, hlimit=8)
 print "test time %s s" %(time.clock() - testBeginTime)
 
 for i in range(len(labels)):

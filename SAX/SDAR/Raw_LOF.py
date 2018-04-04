@@ -7,15 +7,15 @@ import numpy
 import random
 from numpy import array, sum, sqrt
 import time
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, euclidean_distances
 from sklearn.preprocessing import scale, StandardScaler
 from bitarray import bitarray
 from matplotlib import pyplot as plt
 from LocalOutlierFactor import *
 
-data = numpy.loadtxt('../dataSets/wafer', delimiter=',')
-labels = data[:, 0]
-data = data[:, 1:]
+data = numpy.loadtxt('../../dataSets/ionosphere', delimiter=',')
+labels = data[:, -1]
+data = data[:, :-1]
 
 rows, cols = data.shape
 for i in range(rows):
@@ -23,12 +23,7 @@ for i in range(rows):
 
 
 # 计算距离矩阵
-dist_matrix = numpy.zeros((rows, rows))
-for i in range(rows):
-    for j in range(i+1, rows):
-        dist = numpy.linalg.norm(data[i] - data[j])
-        dist_matrix[i, j] = dist
-        dist_matrix[j, i] = dist
+dist_matrix = euclidean_distances(data)
 
 # 表示方法用在LOF中
 d_nlist, d_n = find_kdist(dist_matrix)

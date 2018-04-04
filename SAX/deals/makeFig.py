@@ -6,7 +6,7 @@ import numpy
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import scale
 
-data = numpy.loadtxt('dataSets/ECG200/ecg200')
+data = numpy.loadtxt('../dataSets/ECG200/ecg200')
 labels = data[:,  0]
 data = data[:, 1:]
 rows, cols = data.shape
@@ -25,7 +25,7 @@ plt.yticks((-0.43, 0.43))
 
 # 原始数据集
 x = range(5, cols+5)
-y = scale(data[5])
+y = scale(data[0])
 plt.plot(x, y, color='#808080', linewidth='2')
 plt.tight_layout()
 
@@ -65,5 +65,7 @@ for i in range(0, cols, a):
         plt.plot(range(5 + i, i + a + 5), d_y[i:i + a], linewidth='4', color='r')
         plt.annotate('c', xy=(i+8, d_y[i]-0.18), fontsize=14)
 
-plt.show()
-# plt.savefig('sax_ins2.png', dip=300)
+fig = plt.gcf()
+fig.set_size_inches(6, 3.5)
+# plt.show()
+plt.savefig('../results/sax_ins3.png', dip=300)

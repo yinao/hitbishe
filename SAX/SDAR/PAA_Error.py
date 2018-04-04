@@ -38,9 +38,11 @@ plt.plot(range(win_size), data_two[0:win_size], marker='.', label='series 3')
 plt.plot(range(win_size), [paa_data[2][0] for _ in range(win_size)], marker='.', label='series 4')
 
 plt.legend(loc='upper right')
+plt.xlabel('Time')
+plt.ylabel('Y')
 plt.tight_layout()
 fig = plt.gcf()
-fig.set_size_inches(6, 3)
+fig.set_size_inches(6, 3.8)
 # plt.show()
 plt.savefig('results/paa_e.png', dpi=200)
 

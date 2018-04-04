@@ -7,7 +7,7 @@ import math
 from sklearn import metrics, preprocessing
 from matplotlib import pyplot as plt
 
-data = numpy.loadtxt('../data_series/Lighting2', delimiter=',')
+data = numpy.loadtxt('../../data_series/lighting', delimiter=',')
 labels = data[:, 0]
 data = data[:, 1:]
 rows, cols = data.shape

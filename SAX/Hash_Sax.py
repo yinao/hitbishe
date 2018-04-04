@@ -35,7 +35,7 @@ b = 'aac'
 print bitarray(hash_value(a) ^ hash_value(b)).count()
 exit()
 
-data = numpy.loadtxt('dataSets/Lighting2', delimiter=',')
+data = numpy.loadtxt('dataSets/lighting2', delimiter=',')
 labels = data[:, 0]
 data = data[:, 1:]
 

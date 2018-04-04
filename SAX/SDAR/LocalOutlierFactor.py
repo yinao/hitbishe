@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import euclidean_distances
 from sklearn.metrics import roc_auc_score
 
 
-def find_kdist(d_matrix, k=3):
+def find_kdist(d_matrix, k=5):
     rows, cols = d_matrix.shape
     d_ndist = numpy.arange(rows)
     d_n = numpy.zeros((rows, k), dtype='int')

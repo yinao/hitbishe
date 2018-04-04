@@ -12,7 +12,7 @@ from sklearn.preprocessing import scale, StandardScaler
 from bitarray import bitarray
 from matplotlib import pyplot as plt
 
-data = numpy.loadtxt('../dataSets/strawberry', delimiter=',')
+data = numpy.loadtxt('../../data_series/forest/stawberry', delimiter=',')
 labels = data[:, 0]
 data = data[:, 1:]
 rows, cols = data.shape

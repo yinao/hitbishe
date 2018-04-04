@@ -4,7 +4,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-name_list = ['ECG200', 'Wafer', 'Strawberry', 'Lighting2', 'Gun Points', 'ToeSegmentation2']
+name_list = ['ECG200', 'Wafer', 'Strawberry', 'lighting2', 'Gun Points', 'ToeSegmentation2']
 fmdp_cost = [0.36, 9.326, 1.7, 0.13, 0.27, 0.38]
 bf_cost = [4.94, 16.8, 2.58, 2.78, 0.36, 7.75]
 hs_cost = [1.38, 12.579, 3.52,  0.733, 0.63, 1.917]

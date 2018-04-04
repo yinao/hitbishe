@@ -9,7 +9,7 @@ from matplotlib import pyplot
 
 # reading training data
 begin = time.clock()
-fileObj = open("../dataSets/ann_thyroid", "r")
+fileObj = open("../dataSets/pima", "r")
 dataSets, labels = [], []
 for line in fileObj.readlines():
     tmp = line.split(',')
@@ -21,38 +21,34 @@ dataSets = preprocessing.scale(dataSets)
 end = time.clock()
 print "reading data cost %s s" %(end-begin)
 
-begin = time.clock()
-forest = HS_Forest()
-forest.setup(attr=len(dataSets[0]), hlimit=10, treeNum=25)
-forest.build()
-end = time.clock()
-print "building forest cost %s s" %(end-begin)
+obj = open('../MyForest/results/pima/hs_t1-25_h6.txt', 'w')
+obj.write('tree\tauc\t test_time\n')
 
-begin = time.clock()
-forest.initModel(dataSets)
-end = time.clock()
-print "update forest mass cost %s s" %(end-begin)
+for i in range(1, 26, 1):
 
-begin = time.clock()
-fileObj = open("../dataSets/ann_thyroid", "r")
-data_test, labels_test = [], []
-for line in fileObj.readlines():
-    tmp = line.split(",")
-    labels_test.append(int(tmp[-1]))
-    tmp = tmp[0:-1]
-    data_test.append([float(x) for x in tmp])
-fileObj.close()
-data_test = preprocessing.scale(data_test)
-end = time.clock()
-print "read test cost %s s" %(end-begin)
+    begin = time.clock()
+    forest = HS_Forest()
+    forest.setup(attr=len(dataSets[0]), hlimit=6, treeNum=i)
+    forest.build()
+    end = time.clock()
+    # print "building forest cost %s s" %(end-begin)
 
-begin = time.clock()
-scores = forest.evaluate(data_test, hlimit=6)
-end = time.clock()
-print "evaluate model cost %s s" %(end-begin)
+    begin = time.clock()
+    forest.initModel(dataSets)
+    end = time.clock()
+    # print "update forest mass cost %s s" %(end-begin)
+
+    begin = time.clock()
+    scores = forest.evaluate(dataSets, hlimit=6)
+    end = time.clock()
+    # print "evaluate model cost %s s" %(end-begin)
 
 
-print "AUC score is %s" %roc_auc_score(labels_test, scores)
+    print "AUC score is %s" %roc_auc_score(labels, scores)
+
+    obj.write('%d \t %f \t %f \n' %(i, roc_auc_score(labels,scores), (end-begin)))
+
+obj.close()
 
 # pyplot.figure(1)
 # x = [x for x in range(len(scores))]

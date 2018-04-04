@@ -8,7 +8,7 @@ from sklearn import metrics, preprocessing
 from matplotlib import pyplot as plt
 from Forest import generalized_ir
 
-data = numpy.loadtxt('../data_series/gun1', delimiter=',')
+data = numpy.loadtxt('../../data_series/gun1', delimiter=',')
 labels = data[:, 0]
 data = data[:, 1:]
 rows, cols = data.shape

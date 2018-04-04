@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import minmax_scale
 from AutoEncoder import AutoEncoder
 
-data_set = numpy.loadtxt('../dataSets/pima', delimiter=',')
+data_set = numpy.loadtxt('../dataSets/hapt511', delimiter=',')
 
 s_data = numpy.array(random.sample(data_set.tolist(), 256))
 s_data = minmax_scale(s_data)
@@ -21,13 +21,13 @@ s_data = s_data[:, s_index]
 rows, cols = s_data.shape
 
 ae = AutoEncoder()
-ae.init_tf(fin=cols, fou=1, epochs=100)
+ae.init_tf(fin=cols, fou=1, epochs=10)
 
 results = ae.get_results(s_data)
 
 split = random.uniform(min(results['inters']), max(results['inters']))
 
-print(results['inters'][numpy.where(results['inters'] > split)])
+# print(results['inters'][numpy.where(results['inters'] > split)])
 
 # print(results['weights'])
 # print(results['biases'])

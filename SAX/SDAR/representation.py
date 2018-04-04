@@ -54,7 +54,7 @@ def paa_dist(a, b, win_size):
         dist += (d-b[i])**2
     return (dist*win_size)**0.5
 
-data = numpy.loadtxt('../dataSets/Lighting2', delimiter=',')
+data = numpy.loadtxt('../dataSets/lighting2', delimiter=',')
 labels = data[:, 0]
 data = data[:, 1:]
 

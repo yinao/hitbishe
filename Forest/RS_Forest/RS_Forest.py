@@ -45,8 +45,8 @@ class RS_Forest(object):
 
     def buildModel(self):
         assert (self.__attr > 2), "attributes number is too less"
-        assert (self.__treeNum > 1), "tree number is too less"
-        assert (self.__hlimit > 1), "tree height limit is too less"
+        assert (self.__treeNum > 0), "tree number is too less"
+        assert (self.__hlimit > 0), "tree height limit is too less"
 
         sample, lowers, uppers = self.obtainRange(self.__instances)
         i = 0

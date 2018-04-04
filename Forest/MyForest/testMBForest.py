@@ -2,12 +2,12 @@
 # -*-coding:utf-8-*-
 
 import matplotlib.pyplot as plt
-from MBForest import MBForest
+from MBForest_2 import MBForest
 from sklearn import preprocessing
 from sklearn.metrics import roc_auc_score
 import time
 
-set_name = 'arrhythmia'
+set_name = 'pima'
 
 fileObj = open("../dataSets/"+set_name, "r")
 dataLines = fileObj.readlines()
@@ -21,28 +21,37 @@ for line in dataLines:
 fileObj.close()
 # dataSets = preprocessing.scale(dataSets)
 
-# test mbforest code
-trainBeginTime = time.clock()
-forest = MBForest()
-forest.setup(tree_num=25, sample_size=256, size_limit=2, height_limit=6, less_height=0.025, much_height=0.95)
-forest.build(dataSets)
-print "training cost %s s" %(time.clock() - trainBeginTime)
-testBeginTime = time.clock()
-scores = forest.evaluate(dataSets, hlimit=6)
-print "test time %s s" %(time.clock() - testBeginTime)
-auc = roc_auc_score(labels, scores)
-print "AUC is: %s" % (auc)
-exit()
+obj = open('./results/pima/mb_t1-25_h6.txt', 'w')
+# obj.write('tree\tauc\t test_time\n')
+
+for i in range(1, 26, 1):
+
+    # test mbforest code
+    trainBeginTime = time.clock()
+    forest = MBForest()
+    forest.setup(tree_num=i, sample_size=256, size_limit=15, height_limit=8, less_height=0.0026, much_height=0.9974)
+    forest.build(dataSets)
+    # print "training cost %s s" %(time.clock() - trainBeginTime)
+    testBeginTime = time.clock()
+    scores = forest.density_evaluate(dataSets, hlimit=6)
+    end = time.clock()
+    # print "test time %s s" %(end - testBeginTime)
+    auc = roc_auc_score(labels, scores)
+    print "AUC is: %s" % (auc)
+
+    obj.write('%d \t %f \t %f \n' %(i, roc_auc_score(labels,scores), (end-testBeginTime)))
+
+obj.close()
+
 
 # make score figure code
 # plt.figure(1)
-# # x = [i for i in range(len(scores))]
-# plt.plot(height, aucs)
-# plt.xticks(height)
-# # plt.ylim((0,1))
+# x = [i for i in range(len(scores))]
+# plt.plot(x, scores)
 # plt.ylabel('AUC--')
 # plt.xlabel('height limit h')
 # plt.show()
+exit()
 
 # compare to iforest code
 # height = []

@@ -29,7 +29,7 @@ class HS_Forest(object):
 
     def build(self):
         assert (self.__attr > 1), 'attributes number is too less'
-        assert (self.__hlimit > 1), "tree height limit is too less"
+        assert (self.__hlimit > 0), "tree height limit is too less"
         assert (self.__treeNum >= 1), 'tree nums is too less'
 
         mins = list()
